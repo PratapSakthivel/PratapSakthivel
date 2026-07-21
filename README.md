@@ -61,15 +61,6 @@
 
 ---
 
-## GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=PratapSakthivel&show_icons=true&theme=radical&hide_border=true" width="48%" alt="GitHub Stats"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=PratapSakthivel&theme=radical&hide_border=true" width="48%" alt="GitHub Streak"/>
-</div>
-
----
-
 ## Featured Projects
 
 - **Laddu Kadai – D2C Subscription & Referral Platform** — Spring Boot, Angular, JWT  
@@ -91,9 +82,6 @@
 <div align="center">
   <a href="https://www.linkedin.com/in/pratap-s-587b0b342/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="https://github.com/PratapSakthivel">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
   <a href="https://leetcode.com/u/PratapSakthivel/">
     <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/>
