@@ -78,8 +78,6 @@
 ---
 
 ## Let's Connect
-
-## Let's Connect
 <div align="center">
   <a href="https://chat.z.ai/space/v1p5w6m6kab0-art">
     <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
