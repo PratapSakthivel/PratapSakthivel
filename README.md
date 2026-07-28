@@ -97,7 +97,6 @@
 
 ## Current Focus
 
-- Preparing for **Cognizant DN 5.0** deep skilling and KBA assessment
 - Building out the **Laddu Kadai** subscription platform end-to-end
 - Practicing DSA and solving problems on LeetCode
 - Strengthening Spring Boot, Microservices, and Angular fundamentals
