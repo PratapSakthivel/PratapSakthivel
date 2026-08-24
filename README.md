@@ -40,7 +40,7 @@
 
 - **B.Tech – Information Technology**, VSB Engineering College (2023 – Current)
 - **Full-Stack Java Developer** building with Spring Boot, Angular, and MySQL
-- Solved **200+ LeetCode problems** with strong DSA foundations
+- Solved **230+ LeetCode problems** with strong DSA foundations
 - Experienced in **REST API design** and **JWT authentication**
 - Completed **AWS Cloud Practitioner Intern** & **Java BackEnd Internship At Infosys SpringBoard**
 - **National Level Hackathon Winner** — GOAT Code Editor, JSREC 2026
