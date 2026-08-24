@@ -38,7 +38,7 @@
   />
 </div>
 
-- **B.Tech – Information Technology**, VSB Engineering College (2023 – 2027)
+- **B.Tech – Information Technology**, VSB Engineering College (2023 – Current)
 - **Full-Stack Java Developer** building with Spring Boot, Angular, and MySQL
 - Solved **200+ LeetCode problems** with strong DSA foundations
 - Experienced in **REST API design** and **JWT authentication**
