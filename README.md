@@ -97,7 +97,7 @@
 
 ## Current Focus
 
-- Building out the **Laddu Kadai** subscription platform end-to-end
+- Focusing on Stuffs Related to SDE
 - Practicing DSA and solving problems on LeetCode
 - Strengthening Spring Boot, Microservices, and Angular fundamentals
 
