@@ -43,7 +43,7 @@
 - Solved **230+ LeetCode problems** with strong DSA foundations
 - Experienced in **REST API design** and **JWT authentication**
 - Completed **AWS Cloud Practitioner Intern** & **Java Backend Internship At Infosys SpringBoard**
-- **National Level Hackathon Winner** — GOAT Code Editor, JSREC 2026
+- **National Level Hackathon Winner**
 - Dedicated, consistent, and enthusiastic about technology
 
 **Email:** [pratapssakthivel@gmail.com](mailto:pratapssakthivel@gmail.com)
