@@ -30,7 +30,6 @@ I'm **Pratap Sakthivel** — an Information Technology undergraduate with a stro
 - 🎯 **Training regime:** 230+ LeetCode problems solved + DSA mastery
 - 💡 **Superpower:** Excellent talent in prompting, which helps me achieve projects easier
 - 🎓 **Credentials:** AWS Cloud Practitioner Intern & Java Backend Intern (Infosys SpringBoard)
-- ☕ **Fuel source:** coffee → code (conversion rate: near-infinite)
 - 🌐 **The home web:** [My Portfolio](https://chat.z.ai/space/p1z487v94w51-art)
 
 <br/>
