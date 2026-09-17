@@ -1,6 +1,7 @@
-<!-- =================================================================
-     PRATAP SAKTHIVEL — GITHUB PROFILE README (Spider-Man Edition)
-================================================================== -->
+<!-- ====================== SPIDER-VERSE PORTAL HALO ====================== -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/PratapSakthivel/PratapSakthivel/main/assets/portal-halo.svg" width="100%" alt="Spider-Verse Portal Halo"/>
+</p>
 
 <!-- SPIDER-MAN WELCOME PANEL -->
 <p align="center">
@@ -20,6 +21,10 @@
 <br/>
 
 <!-- ========================= THE ORIGIN STORY ========================= -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/PratapSakthivel/PratapSakthivel/main/assets/burst-red.svg" width="100%" alt="Origin Story burst"/>
+</p>
+
 <img src="https://readme-typing-svg.demolab.com?font=Archivo+Black&size=26&duration=2000&pause=600&color=D62828&center=false&vCenter=true&random=false&width=459&lines=%F0%9F%95%B7%EF%B8%8F%20The%20Origin%20Story" alt="🕷️ The Origin Story"/>
 
 > *"With great code comes great responsibility."* — Uncle Ben, probably
@@ -34,7 +39,16 @@ I'm **Pratap Sakthivel** — an Information Technology undergraduate with a stro
 
 <br/>
 
+<!-- ===================== CUSTOM ANIMATED WEB DIVIDER ===================== -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/PratapSakthivel/PratapSakthivel/main/assets/web-divider-a.svg" width="100%" alt="web divider"/>
+</p>
+
 <!-- ========================= GREATEST SAVES (PROJECTS) ========================= -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/PratapSakthivel/PratapSakthivel/main/assets/burst-blue.svg" width="100%" alt="Greatest Saves burst"/>
+</p>
+
 <img src="https://readme-typing-svg.demolab.com?font=Archivo+Black&size=26&duration=2000&pause=600&color=3E7BD6&center=false&vCenter=true&random=false&width=405&lines=%F0%9F%8C%86%20Greatest%20Saves" alt="🌆 Greatest Saves"/>
 
 <table width="100%" align="center">
@@ -68,11 +82,16 @@ I'm **Pratap Sakthivel** — an Information Technology undergraduate with a stro
   </tr>
 </table>
 
+<!-- ===================== CUSTOM ANIMATED WEB DIVIDER ===================== -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Dharineesh-17/Dharineesh-17/main/assets/web-divider.svg" width="82%" alt="web-divider"/>
+  <img src="https://raw.githubusercontent.com/PratapSakthivel/PratapSakthivel/main/assets/web-divider-b.svg" width="100%" alt="web divider"/>
 </p>
 
 <!-- ========================= WEB OF SKILLS ========================= -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/PratapSakthivel/PratapSakthivel/main/assets/burst-red.svg" width="100%" alt="Web of Skills burst"/>
+</p>
+
 <img src="https://readme-typing-svg.demolab.com?font=Archivo+Black&size=26&duration=2000&pause=600&color=D62828&center=false&vCenter=true&random=false&width=405&lines=%F0%9F%95%B8%EF%B8%8F%20Web%20of%20Skills" alt="🕸️ Web of Skills"/>
 
 <div align="center">
@@ -107,7 +126,16 @@ I'm **Pratap Sakthivel** — an Information Technology undergraduate with a stro
 
 <br/>
 
+<!-- ===================== CUSTOM ANIMATED WEB DIVIDER ===================== -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/PratapSakthivel/PratapSakthivel/main/assets/web-divider-c.svg" width="100%" alt="web divider"/>
+</p>
+
 <!-- ========================= WEB-WARRIOR TRAINING ========================= -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/PratapSakthivel/PratapSakthivel/main/assets/burst-red.svg" width="100%" alt="Web-Warrior Training burst"/>
+</p>
+
 <img src="https://readme-typing-svg.demolab.com?font=Archivo+Black&size=26&duration=2000&pause=600&color=D62828&center=false&vCenter=true&random=false&width=513&lines=%F0%9F%8E%AF%20Web-Warrior%20Training" alt="🎯 Web-Warrior Training"/>
 
 <div align="center">
@@ -116,7 +144,16 @@ I'm **Pratap Sakthivel** — an Information Technology undergraduate with a stro
 
 <br/>
 
+<!-- ===================== CUSTOM ANIMATED WEB DIVIDER ===================== -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/PratapSakthivel/PratapSakthivel/main/assets/web-divider-a.svg" width="100%" alt="web divider"/>
+</p>
+
 <!-- ========================= SPIDER-SENSE ========================= -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/PratapSakthivel/PratapSakthivel/main/assets/spider-sense-rings.svg" width="100%" alt="Spider-Sense pulse rings"/>
+</p>
+
 <img src="https://readme-typing-svg.demolab.com?font=Archivo+Black&size=26&duration=2000&pause=600&color=3E7BD6&center=false&vCenter=true&random=false&width=648&lines=%E2%9A%A1%20Spider-Sense%20%E2%80%94%20What%27s%20Tingling" alt="⚡ Spider-Sense — What's Tingling"/>
 
 <table>
@@ -141,7 +178,16 @@ I'm **Pratap Sakthivel** — an Information Technology undergraduate with a stro
 
 <br/>
 
+<!-- ===================== CUSTOM ANIMATED WEB DIVIDER ===================== -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/PratapSakthivel/PratapSakthivel/main/assets/web-divider-b.svg" width="100%" alt="web divider"/>
+</p>
+
 <!-- ========================= LEADERSHIP & ORGANISATIONS ========================= -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/PratapSakthivel/PratapSakthivel/main/assets/leadership-shield.svg" width="100%" alt="Leadership shield"/>
+</p>
+
 <img src="https://readme-typing-svg.demolab.com?font=Archivo+Black&size=26&duration=2000&pause=600&color=F5C518&center=false&vCenter=true&random=false&width=648&lines=%F0%9F%9B%A1%EF%B8%8F%20Leadership%20%26%20Organisations" alt="🛡️ Leadership & Organisations"/>
 
 <table width="100%">
@@ -161,7 +207,16 @@ I'm **Pratap Sakthivel** — an Information Technology undergraduate with a stro
 
 <br/>
 
+<!-- ===================== CUSTOM ANIMATED WEB DIVIDER ===================== -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/PratapSakthivel/PratapSakthivel/main/assets/web-divider-c.svg" width="100%" alt="web divider"/>
+</p>
+
 <!-- ========================= THWIP! COMIC RELIEF ========================= -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/PratapSakthivel/PratapSakthivel/main/assets/burst-yellow.svg" width="100%" alt="THWIP comic burst"/>
+</p>
+
 <img src="https://readme-typing-svg.demolab.com?font=Archivo+Black&size=26&duration=2000&pause=600&color=D62828&center=false&vCenter=true&random=false&width=513&lines=%F0%9F%98%82%20THWIP%21%20Comic%20Relief" alt="😂 THWIP! Comic Relief"/>
 
 <div align="center">
@@ -170,11 +225,16 @@ I'm **Pratap Sakthivel** — an Information Technology undergraduate with a stro
 
 <br/>
 
+<!-- ===================== CUSTOM ANIMATED WEB DIVIDER ===================== -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Dharineesh-17/Dharineesh-17/main/assets/web-divider.svg" width="82%" alt="web divider"/>
+  <img src="https://raw.githubusercontent.com/PratapSakthivel/PratapSakthivel/main/assets/web-divider-a.svg" width="100%" alt="web divider"/>
 </p>
 
 <!-- ========================= SIGNAL THE SPIDER ========================= -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/PratapSakthivel/PratapSakthivel/main/assets/burst-blue.svg" width="100%" alt="Signal the Spider burst"/>
+</p>
+
 <img src="https://readme-typing-svg.demolab.com?font=Archivo+Black&size=26&duration=2000&pause=600&color=3E7BD6&center=false&vCenter=true&random=false&width=405&lines=%F0%9F%93%A1%20Signal%20the%20Spider" alt="📡 Signal the Spider"/>
 
 <div align="center">
@@ -201,6 +261,12 @@ I'm **Pratap Sakthivel** — an Information Technology undergraduate with a stro
 
 <br/>
 
+<!-- ===================== SPIDER-VERSE FOOTER CAPSULE ===================== -->
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&height=140&color=0:0D47A1,26:0D47A1,36:D62828,64:D62828,74:0D47A1,100:0D47A1&&&animation=fadeIn&stroke=1A1A1A&strokeWidth=3&section=footer" width="100%"/>
 </div>
+
+<!-- Final decorative bottom-edge web sparkle -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/PratapSakthivel/PratapSakthivel/main/assets/footer-sparkle.svg" width="100%" alt="footer sparkle"/>
+</p>
