@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="180" viewBox="0 0 240 180" fill="none">
+  <defs>
+    <radialGradient id="thwipBg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFD75E" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#D62828" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="thwipHalftone" x="0" y="0" width="8" height="8" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.8" fill="#1A1A1A" opacity="0.4"/>
+      <circle cx="6" cy="5" r="0.6" fill="#D62828" opacity="0.5"/>
+    </pattern>
+  </defs>
+  <g transform="translate(120,90)">
+    <g>
+      <animateTransform attributeName="transform" type="rotate" values="-3;3;-3" dur="1.8s" repeatCount="indefinite"/>
+      <g>
+        <animateTransform attributeName="transform" type="scale" values="1;1.08;1" dur="1.2s" repeatCount="indefinite"/>
+        <!-- Outer star burst (16 points) -->
+        <path d="M0,-80 L14,-22 L42,-42 L22,-14 L80,0 L22,14 L42,42 L14,22 L0,80 L-14,22 L-42,42 L-22,14 L-80,0 L-22,-14 L-42,-42 L-14,-22 Z" fill="#FFD75E" stroke="#1A1A1A" stroke-width="3"/>
+        <!-- Inner star burst (8 points) -->
+        <path d="M0,-58 L10,-15 L28,-28 L15,-10 L58,0 L15,10 L28,28 L10,15 L0,58 L-10,15 L-28,28 L-15,10 L-58,0 L-15,-10 L-28,-28 L-10,-15 Z" fill="#D62828" opacity="0.85"/>
+        <!-- Halftone dot overlay inside star -->
+        <path d="M0,-80 L14,-22 L42,-42 L22,-14 L80,0 L22,14 L42,42 L14,22 L0,80 L-14,22 L-42,42 L-22,14 L-80,0 L-22,-14 L-42,-42 L-14,-22 Z" fill="url(#thwipHalftone)" opacity="0.5"/>
+        <!-- THWIP! text -->
+        <text x="0" y="0" text-anchor="middle" dominant-baseline="middle" font-family="Arial Black, Impact, sans-serif" font-size="32" font-weight="900" font-style="italic" fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" transform="rotate(-8)">THWIP!</text>
+        <!-- Exclamation accent dots -->
+        <circle cx="60" cy="-30" r="3" fill="#1A1A1A">
+          <animate attributeName="opacity" values="0.5;1;0.5" dur="0.8s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="-60" cy="30" r="2" fill="#1A1A1A">
+          <animate attributeName="opacity" values="0.5;1;0.5" dur="0.8s" begin="0.4s" repeatCount="indefinite"/>
+        </circle>
+      </g>
+    </g>
+  </g>
+  <!-- Small spider crawling around bubble -->
+  <g>
+    <g>
+      <animateMotion dur="14s" repeatCount="indefinite" path="M20,30 Q120,10 220,30 Q220,90 120,90 Q20,90 20,30 Z"/>
+      <circle r="2.5" fill="#1A1A1A"/>
+      <line x1="-2" y1="0" x2="-5" y2="-3" stroke="#1A1A1A" stroke-width="0.5"/>
+      <line x1="-2" y1="0" x2="-6" y2="0" stroke="#1A1A1A" stroke-width="0.5"/>
+      <line x1="-2" y1="0" x2="-5" y2="3" stroke="#1A1A1A" stroke-width="0.5"/>
+      <line x1="2" y1="0" x2="5" y2="-3" stroke="#1A1A1A" stroke-width="0.5"/>
+      <line x1="2" y1="0" x2="6" y2="0" stroke="#1A1A1A" stroke-width="0.5"/>
+      <line x1="2" y1="0" x2="5" y2="3" stroke="#1A1A1A" stroke-width="0.5"/>
+    </g>
+  </g>
+</svg>

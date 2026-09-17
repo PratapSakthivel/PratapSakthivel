@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="130" viewBox="0 0 880 130" fill="none">
+  <defs>
+    <radialGradient id="v2portal" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#FF2D95" stop-opacity="0.6"/>
+      <stop offset="30%" stop-color="#D62828" stop-opacity="0.4"/>
+      <stop offset="65%" stop-color="#00C2FF" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#0D1117" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="v2glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFD75E" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#D62828" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="v2haloDots" x="0" y="0" width="14" height="14" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="1.2" fill="#D62828" opacity="0.18"/>
+      <circle cx="10" cy="8" r="0.9" fill="#00C2FF" opacity="0.15"/>
+    </pattern>
+  </defs>
+  <rect width="880" height="130" fill="url(#v2haloDots)"/>
+  <rect width="880" height="130" fill="url(#v2portal)"/>
+  <!-- Outer rotating spider-web (counter-clockwise) -->
+  <g transform="translate(440,65)">
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="38s" repeatCount="indefinite"/>
+      <g stroke="#D62828" stroke-width="0.7" opacity="0.55" fill="none">
+        <line x1="0" y1="0" x2="0" y2="-58"/>
+        <line x1="0" y1="0" x2="41" y2="-41"/>
+        <line x1="0" y1="0" x2="58" y2="0"/>
+        <line x1="0" y1="0" x2="41" y2="41"/>
+        <line x1="0" y1="0" x2="0" y2="58"/>
+        <line x1="0" y1="0" x2="-41" y2="41"/>
+        <line x1="0" y1="0" x2="-58" y2="0"/>
+        <line x1="0" y1="0" x2="-41" y2="-41"/>
+        <circle cx="0" cy="0" r="22" stroke-dasharray="3 7"/>
+        <circle cx="0" cy="0" r="35" stroke-dasharray="4 10"/>
+        <circle cx="0" cy="0" r="48" stroke-dasharray="2 12"/>
+        <circle cx="0" cy="0" r="58" stroke-dasharray="3 16"/>
+      </g>
+    </g>
+  </g>
+  <!-- Inner rotating spider-web (clockwise, faster) -->
+  <g transform="translate(440,65)">
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="18s" repeatCount="indefinite"/>
+      <g stroke="#00C2FF" stroke-width="0.6" opacity="0.55" fill="none">
+        <line x1="0" y1="0" x2="0" y2="-30"/>
+        <line x1="0" y1="0" x2="22" y2="-22"/>
+        <line x1="0" y1="0" x2="30" y2="0"/>
+        <line x1="0" y1="0" x2="22" y2="22"/>
+        <line x1="0" y1="0" x2="0" y2="30"/>
+        <line x1="0" y1="0" x2="-22" y2="22"/>
+        <line x1="0" y1="0" x2="-30" y2="0"/>
+        <line x1="0" y1="0" x2="-22" y2="-22"/>
+        <circle cx="0" cy="0" r="14" stroke-dasharray="2 4"/>
+        <circle cx="0" cy="0" r="24" stroke-dasharray="3 6"/>
+      </g>
+    </g>
+  </g>
+  <!-- RGB-split glitch center spider -->
+  <g transform="translate(440,65)">
+    <circle cx="-2" cy="0" r="8" fill="#FF2D95" opacity="0.5">
+      <animate attributeName="cx" values="-2;-4;-2;0;-2" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="2" cy="0" r="8" fill="#00C2FF" opacity="0.5">
+      <animate attributeName="cx" values="2;4;2;0;2" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="0" cy="0" r="6" fill="url(#v2glow)">
+      <animate attributeName="r" values="5;9;5" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Spider body + legs -->
+    <circle cx="0" cy="-2" r="2.5" fill="#1A1A1A"/>
+    <circle cx="0" cy="2" r="3" fill="#1A1A1A"/>
+    <g stroke="#1A1A1A" stroke-width="0.8" fill="none">
+      <path d="M-2,-1 Q-7,-3 -10,-7"/>
+      <path d="M-3,0 Q-9,0 -12,-2"/>
+      <path d="M-3,1 Q-9,3 -11,7"/>
+      <path d="M2,-1 Q7,-3 10,-7"/>
+      <path d="M3,0 Q9,0 12,-2"/>
+      <path d="M3,1 Q9,3 11,7"/>
+    </g>
+  </g>
+  <!-- 4 corner sparkle stars -->
+  <g fill="#FFD75E" opacity="0.7">
+    <g transform="translate(60,30)">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="1.8s" repeatCount="indefinite"/>
+      <path d="M0,-6 L1.5,-1.5 L6,0 L1.5,1.5 L0,6 L-1.5,1.5 L-6,0 L-1.5,-1.5 Z"/>
+    </g>
+    <g transform="translate(820,30)">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="1.8s" begin="0.5s" repeatCount="indefinite"/>
+      <path d="M0,-6 L1.5,-1.5 L6,0 L1.5,1.5 L0,6 L-1.5,1.5 L-6,0 L-1.5,-1.5 Z"/>
+    </g>
+    <g transform="translate(120,100)">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="1.8s" begin="1s" repeatCount="indefinite"/>
+      <path d="M0,-5 L1.2,-1.2 L5,0 L1.2,1.2 L0,5 L-1.2,1.2 L-5,0 L-1.2,-1.2 Z"/>
+    </g>
+    <g transform="translate(760,100)">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="1.8s" begin="1.4s" repeatCount="indefinite"/>
+      <path d="M0,-5 L1.2,-1.2 L5,0 L1.2,1.2 L0,5 L-1.2,1.2 L-5,0 L-1.2,-1.2 Z"/>
+    </g>
+  </g>
+  <!-- Dense halftone scatter -->
+  <g fill="#D62828" opacity="0.4">
+    <circle cx="100" cy="50" r="2"/>
+    <circle cx="135" cy="75" r="1.5"/>
+    <circle cx="170" cy="40" r="2.5"/>
+    <circle cx="205" cy="90" r="1.8"/>
+    <circle cx="240" cy="55" r="1.4"/>
+    <circle cx="780" cy="50" r="2"/>
+    <circle cx="745" cy="75" r="1.5"/>
+    <circle cx="710" cy="40" r="2.5"/>
+    <circle cx="675" cy="90" r="1.8"/>
+    <circle cx="640" cy="55" r="1.4"/>
+  </g>
+  <g fill="#00C2FF" opacity="0.35">
+    <circle cx="80" cy="80" r="1.6"/>
+    <circle cx="115" cy="105" r="1.2"/>
+    <circle cx="225" cy="105" r="1.4"/>
+    <circle cx="800" cy="80" r="1.6"/>
+    <circle cx="655" cy="105" r="1.2"/>
+    <circle cx="565" cy="105" r="1.4"/>
+  </g>
+  <!-- Crawling spider (small) diagonally -->
+  <g>
+    <g>
+      <animateMotion dur="11s" repeatCount="indefinite" path="M50,110 Q440,80 830,110"/>
+      <circle r="2.5" fill="#1A1A1A"/>
+      <line x1="-2" y1="0" x2="-5" y2="-3" stroke="#1A1A1A" stroke-width="0.5"/>
+      <line x1="-2" y1="0" x2="-6" y2="0" stroke="#1A1A1A" stroke-width="0.5"/>
+      <line x1="-2" y1="0" x2="-5" y2="3" stroke="#1A1A1A" stroke-width="0.5"/>
+      <line x1="2" y1="0" x2="5" y2="-3" stroke="#1A1A1A" stroke-width="0.5"/>
+      <line x1="2" y1="0" x2="6" y2="0" stroke="#1A1A1A" stroke-width="0.5"/>
+      <line x1="2" y1="0" x2="5" y2="3" stroke="#1A1A1A" stroke-width="0.5"/>
+    </g>
+  </g>
+</svg>

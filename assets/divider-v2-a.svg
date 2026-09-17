@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="60" viewBox="0 0 880 60" fill="none">
+  <defs>
+    <pattern id="v2divDots" x="0" y="0" width="10" height="10" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.8" fill="#D62828" opacity="0.18"/>
+      <circle cx="7" cy="6" r="0.6" fill="#00C2FF" opacity="0.18"/>
+    </pattern>
+    <linearGradient id="v2divStrand" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0D1117" stop-opacity="0"/>
+      <stop offset="10%" stop-color="#D62828" stop-opacity="1"/>
+      <stop offset="30%" stop-color="#FF2D95" stop-opacity="1"/>
+      <stop offset="50%" stop-color="#FFD75E" stop-opacity="1"/>
+      <stop offset="70%" stop-color="#00C2FF" stop-opacity="1"/>
+      <stop offset="90%" stop-color="#3E7BD6" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#0D1117" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="v2divPulse" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFD75E" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#D62828" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- Halftone background -->
+  <rect width="880" height="60" fill="url(#v2divDots)"/>
+  <!-- Glitch accent lines -->
+  <g stroke-width="0.6">
+    <line x1="0" y1="20" x2="200" y2="20" stroke="#00C2FF" opacity="0.5">
+      <animate attributeName="x2" values="200;180;200;220;200" dur="3s" repeatCount="indefinite"/>
+    </line>
+    <line x1="680" y1="40" x2="880" y2="40" stroke="#FF2D95" opacity="0.5">
+      <animate attributeName="x1" values="680;700;680;660;680" dur="3s" begin="0.5s" repeatCount="indefinite"/>
+    </line>
+  </g>
+  <!-- Main web strand -->
+  <line x1="0" y1="30" x2="880" y2="30" stroke="url(#v2divStrand)" stroke-width="2"/>
+  <!-- 4 pulsing spider-web nodes -->
+  <g>
+    <circle cx="130" cy="30" r="4" fill="url(#v2divPulse)">
+      <animate attributeName="r" values="3;8;3" dur="2.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="340" cy="30" r="4" fill="url(#v2divPulse)">
+      <animate attributeName="r" values="3;8;3" dur="2.6s" begin="0.65s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.6s" begin="0.65s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="540" cy="30" r="4" fill="url(#v2divPulse)">
+      <animate attributeName="r" values="3;8;3" dur="2.6s" begin="1.3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.6s" begin="1.3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="750" cy="30" r="4" fill="url(#v2divPulse)">
+      <animate attributeName="r" values="3;8;3" dur="2.6s" begin="1.95s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.6s" begin="1.95s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <!-- Web strands radiating from nodes -->
+  <g stroke="#D62828" stroke-width="0.5" opacity="0.6">
+    <line x1="130" y1="30" x2="120" y2="8"/>
+    <line x1="130" y1="30" x2="140" y2="8"/>
+    <line x1="130" y1="30" x2="120" y2="52"/>
+    <line x1="130" y1="30" x2="140" y2="52"/>
+    <line x1="340" y1="30" x2="330" y2="8"/>
+    <line x1="340" y1="30" x2="350" y2="8"/>
+    <line x1="340" y1="30" x2="330" y2="52"/>
+    <line x1="340" y1="30" x2="350" y2="52"/>
+    <line x1="540" y1="30" x2="530" y2="8"/>
+    <line x1="540" y1="30" x2="550" y2="8"/>
+    <line x1="540" y1="30" x2="530" y2="52"/>
+    <line x1="540" y1="30" x2="550" y2="52"/>
+    <line x1="750" y1="30" x2="740" y2="8"/>
+    <line x1="750" y1="30" x2="760" y2="8"/>
+    <line x1="750" y1="30" x2="740" y2="52"/>
+    <line x1="750" y1="30" x2="760" y2="52"/>
+  </g>
+  <!-- Two spiders crawling in opposite directions -->
+  <g>
+    <g>
+      <animateMotion dur="10s" repeatCount="indefinite" path="M0,30 L880,30"/>
+      <g>
+        <animateTransform attributeName="transform" type="scale" values="1;1.1;1" dur="0.8s" repeatCount="indefinite"/>
+        <circle r="3" fill="#1A1A1A"/>
+        <line x1="-3" y1="0" x2="-6" y2="-4" stroke="#1A1A1A" stroke-width="0.6"/>
+        <line x1="-3" y1="0" x2="-7" y2="0" stroke="#1A1A1A" stroke-width="0.6"/>
+        <line x1="-3" y1="0" x2="-6" y2="4" stroke="#1A1A1A" stroke-width="0.6"/>
+        <line x1="3" y1="0" x2="6" y2="-4" stroke="#1A1A1A" stroke-width="0.6"/>
+        <line x1="3" y1="0" x2="7" y2="0" stroke="#1A1A1A" stroke-width="0.6"/>
+        <line x1="3" y1="0" x2="6" y2="4" stroke="#1A1A1A" stroke-width="0.6"/>
+      </g>
+    </g>
+  </g>
+  <g>
+    <g>
+      <animateMotion dur="12s" begin="3s" repeatCount="indefinite" path="M880,30 L0,30"/>
+      <g>
+        <animateTransform attributeName="transform" type="scale" values="1;1.15;1" dur="0.7s" repeatCount="indefinite"/>
+        <circle r="2.5" fill="#D62828"/>
+        <line x1="-2.5" y1="0" x2="-5" y2="-3" stroke="#D62828" stroke-width="0.5"/>
+        <line x1="-2.5" y1="0" x2="-6" y2="0" stroke="#D62828" stroke-width="0.5"/>
+        <line x1="-2.5" y1="0" x2="-5" y2="3" stroke="#D62828" stroke-width="0.5"/>
+        <line x1="2.5" y1="0" x2="5" y2="-3" stroke="#D62828" stroke-width="0.5"/>
+        <line x1="2.5" y1="0" x2="6" y2="0" stroke="#D62828" stroke-width="0.5"/>
+        <line x1="2.5" y1="0" x2="5" y2="3" stroke="#D62828" stroke-width="0.5"/>
+      </g>
+    </g>
+  </g>
+</svg>
