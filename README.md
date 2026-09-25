@@ -97,10 +97,10 @@
 
 ## Current Focus
 
-- 🚀 Advancing skills and exploring opportunities in Software Development Engineering (SDE).
-- 🧠 Practicing Data Structures and Algorithms (DSA) on LeetCode.
-- 🌍 Actively contributing to open-source projects.
-- ⚙️ Strengthening fundamentals in Spring Boot, Microservices, and Angular.
+- Advancing skills and exploring opportunities in Software Development Engineering (SDE).
+- Practicing Data Structures and Algorithms (DSA) on LeetCode.
+- Actively contributing to open-source projects.
+- Strengthening fundamentals in Spring Boot, Microservices, and Angular.
 
 ---
 
